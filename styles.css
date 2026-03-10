@@ -23,4 +23,9 @@ nav {
 h1 {
     font-size: 70px;
     letter-spacing: 0.05em;
+    font-weight: 400;
+}
+
+h1 > span {
+    font-weight: 700;
 }
