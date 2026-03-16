@@ -94,3 +94,9 @@ h1 > span {
     color: #118da8;
     font-size: 17px;
 }
+
+.card-title {
+    font-size: 64px;
+    letter-spacing: 0.04em;
+    font-weight: 400;
+}
