@@ -73,17 +73,19 @@ h1 > span {
     margin-left: 22px;
 }
 
-.card-1 {
+.cards-container {
     background: #000;
     border-radius: 32px;
 }
 
-.card-2 {
-    background: #000;
-    border-radius: 32px;
-}
-
-.card-3 {
-    background: #000;
-    border-radius: 32px;
+.labe_cards {
+    background: #191919;
+    border-radius: 6px;
+    width: 73px;
+    height: 27px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fff;
+    padding: 0 16px;
 }
