@@ -100,3 +100,20 @@ h1 > span {
     letter-spacing: 0.04em;
     font-weight: 400;
 }
+
+.card-description {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.card-button {
+    width: 208px;
+    height: 51px;
+    background: #118da8;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+}
