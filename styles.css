@@ -72,3 +72,18 @@ h1 > span {
 .text-source {
     margin-left: 22px;
 }
+
+.card-1 {
+    background: #000;
+    border-radius: 32px;
+}
+
+.card-2 {
+    background: #000;
+    border-radius: 32px;
+}
+
+.card-3 {
+    background: #000;
+    border-radius: 32px;
+}
