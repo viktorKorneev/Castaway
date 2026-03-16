@@ -78,7 +78,7 @@ h1 > span {
     border-radius: 32px;
 }
 
-.labe_cards {
+.label_cards {
     background: #191919;
     border-radius: 6px;
     width: 73px;
@@ -88,4 +88,9 @@ h1 > span {
     line-height: 1.5;
     color: #fff;
     padding: 0 16px;
+}
+
+.episode {
+    color: #118da8;
+    font-size: 17px;
 }
