@@ -174,9 +174,32 @@ h1 > span {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .arrow-img { 
   width: 108px;
   height: 64px;
+}
+
+.section-3 .main-section {
+    margin: 100px;
+} 
+
+.section-3-content {
+    display: flex;
+    flex-direction: column;
+    padding: 148px 0;
+}
+
+.section-3-content .episode {
+    margin: 0;
+}
+
+.section-3-content .card-title {
+    margin-bottom: 28px;
+} 
+
+.section-3-content > .card-description {
+  margin-bottom: 33px;
 }
