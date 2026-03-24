@@ -73,38 +73,50 @@ h1 > span {
     margin-left: 22px;
 }
 
-.cards-container {
-    background: #000;
-    border-radius: 32px;
-}
-
 .label_cards {
+    max-width: 73px;
+    height: 27px;
     background: #191919;
     border-radius: 6px;
-    width: 73px;
-    height: 27px;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.5;
     color: #fff;
     padding: 0 16px;
+    margin-bottom: 48px;
+}
+
+.label_cards_two {
+    width: 136px;
+    height: 27px;
+    background: #191919;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.5;
+    color: #fff;
+    padding: 0 16px;
+    margin-bottom: 48px;
 }
 
 .episode {
     color: #118da8;
     font-size: 17px;
+    margin-bottom: 17px;
 }
 
 .card-title {
     font-size: 64px;
     letter-spacing: 0.04em;
     font-weight: 400;
+    margin-bottom: 28px;
 }
 
 .card-description {
     color: rgba(255, 255, 255, 0.7);
     font-weight: 400;
     font-size: 22px;
+    margin-bottom: 18px;
 }
 
 .card-button {
@@ -116,4 +128,40 @@ h1 > span {
     font-weight: 400;
     font-size: 18px;
     line-height: 1.5;
+    border: none;
 }
+
+.conteiner-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+    margin-top: 100px;
+}
+
+.conteiner-main-card {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 0 70px;
+    margin-top: 40px;
+}
+
+.card {
+    display: flex;
+    background: #000;
+    border-radius: 32px;
+    padding: 40px;
+    gap: 53px;
+}
+
+.card img {
+    max-width: 389px;
+    height: auto;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+
+} 
