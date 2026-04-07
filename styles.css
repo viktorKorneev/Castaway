@@ -203,3 +203,20 @@ h1 > span {
 .section-3-content > .card-description {
   margin-bottom: 33px;
 }
+
+.card-title .form {
+  font-size: 72px;
+  line-height: 1.1;
+}
+
+.contact-form input {
+    border: 1px solid #191919;
+    border-radius: 6px;
+    width: 522px;
+    height: 82px;
+    background: #191919;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.2;
+    color: rgba(255, 255, 255, 0.7);
+}
