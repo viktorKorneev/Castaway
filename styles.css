@@ -52,7 +52,8 @@ h1 > span {
 .main-section {
     margin: 40px 70px;
     display: flex;
-    gap: 60px;
+    justify-content: space-between;
+    padding: 100px 0;
 }
 
 .main-text-source {
@@ -204,9 +205,17 @@ h1 > span {
   margin-bottom: 33px;
 }
 
-.card-title .form {
+.card-title.form {
   font-size: 72px;
   line-height: 1.1;
+}
+
+.card-button.form {
+    width: 87px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1.92;
+    color: rgba(255, 255, 255, 0.7);    
 }
 
 .contact-form input {
@@ -219,4 +228,27 @@ h1 > span {
     font-size: 24px;
     line-height: 1.2;
     color: rgba(255, 255, 255, 0.7);
+    padding-left: 19px;
+}
+
+.form-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000;
+    border-radius: 32px;
+    gap: 76px;
+    margin: 100px 70px;
+    /* width: 1300px; */
+    height: 387px;
+    padding: 60px;
+}
+
+.conteiner-main-card.form {
+    padding: 0;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
