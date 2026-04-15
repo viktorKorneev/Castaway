@@ -261,3 +261,10 @@ h1 > span {
 .star-rating {
   
 }
+
+.review-title {
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #fff;
+}
