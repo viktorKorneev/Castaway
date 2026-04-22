@@ -288,10 +288,56 @@ h1 > span {
    
 }
 
+/* ------------Footer--------------- */
+
+.footer-main {
+    padding: 100px 70px;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-grow: 1;
+}
+
 .footer-nav li a {
     font-weight: 400;
     font-size: 17px;
     line-height: 1.58824;
     color: #fff;
     text-decoration: none;
+}
+
+.footer-wrapper ul {
+    list-style-type: none;
+}
+
+.footer-wrapper {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    gap: 60px;
+}
+
+.footer-links-main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-grow: 2;
+}
+
+.footer-links-main img {
+    max-width: 224px;
+    height: auto;
+}
+
+.footer-links {
+    display: flex;
+    gap: 10px;
+}
+
+.source.footer {
+    flex-grow: 1;
+    margin-left: auto;
 }
