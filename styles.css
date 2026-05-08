@@ -253,6 +253,7 @@ h1 > span {
     /* width: 1300px; */
     height: 387px;
     padding: 60px;
+    /* position: relative; */
 }
 
 .conteiner-main-card.form {
@@ -418,4 +419,19 @@ h1 > span {
   background-size: cover;
   top: 470px;
   right: 313px;
+}
+
+.fourth-section {
+    position: relative;
+}
+
+.fourth-section::before {
+  content: "";
+  position: absolute;
+  width: 147px;
+  height: 91px;
+  background-image: url(./image/PSEVDO-IMAGE-3.svg);
+  background-size: cover;
+  top: 330px;
+  left: 35px;
 }
