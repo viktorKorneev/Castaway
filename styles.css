@@ -47,6 +47,7 @@ h1 > span {
 .navigation a {
     color: #fff;
     text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 .main-section {
@@ -68,6 +69,10 @@ h1 > span {
     list-style: none;
     display: flex;
     gap: 17px;
+}
+
+.source img {
+    transition: transform 0.3s ease;
 }
 
 .text-source {
@@ -307,6 +312,7 @@ h1 > span {
     line-height: 1.58824;
     color: #fff;
     text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 .footer-wrapper ul {
@@ -340,4 +346,13 @@ h1 > span {
 .source.footer {
     flex-grow: 1;
     margin-left: auto;
+}
+
+.footer-nav a:hover,
+.navigation a:hover {
+    color: #118da8
+}
+
+.source img:hover {
+    transform: translateY(-5px);
 }
