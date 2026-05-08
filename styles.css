@@ -365,22 +365,27 @@ h1 > span {
 
 .source img:hover {
     transform: translateY(-5px);
+    cursor: pointer;
 }
 
 .card-button:hover {
     background-color: transparent;
     border: 2px solid #118da8;
+    cursor: pointer;
 }
 
 .arrow-img:hover {
     transform: rotate(90deg);
+    cursor: pointer;
 }
 
 .contact-form input:focus {
     border-color:  #454444;
     outline: none;
+    cursor: pointer;
 }
 
 .footer-links img:hover {
     transform: translateY(-5px);
+    cursor: pointer;
 }
