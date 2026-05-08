@@ -260,6 +260,10 @@ h1 > span {
     gap: 20px;
 }
 
+.contact-form input {
+   transition: border-color 0.3s ease;
+}
+
 .item {
     display: flex;
     flex-direction: column;
@@ -366,4 +370,9 @@ h1 > span {
 
 .arrow-img:hover {
     transform: rotate(90deg);
+}
+
+.contact-form input:focus {
+    border-color:  #454444;
+    outline: none;
 }
