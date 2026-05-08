@@ -356,3 +356,8 @@ h1 > span {
 .source img:hover {
     transform: translateY(-5px);
 }
+
+.card-button:hover {
+    background-color: transparent;
+    border: 2px solid #118da8;
+}
