@@ -435,3 +435,45 @@ h1 > span {
   top: 330px;
   left: 35px;
 }
+
+.burger-icon {
+    display: none;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+
+/* Планшет */
+@media (max-width: 768px) {
+  .header{
+    padding: 45px 20px;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .burger-icon {
+    display: block;
+  }
+
+  .main-section {
+    flex-direction: column;
+    gap: 60px;
+    padding: 0px;
+    margin: 60px ;
+  }
+
+  .first-section::before {
+    top: -25px;   
+    left: 35px;  
+    width: 68px;  
+    height: 74px;
+  }
+
+  .main-text-source::before {
+    top: 256px;     
+    left: 0px; 
+}
+
+}
